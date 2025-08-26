@@ -7,4 +7,4 @@ if residuo == 0:
 else:
 #Si no, es impar
     print(numero, "es impar")
-    
+
