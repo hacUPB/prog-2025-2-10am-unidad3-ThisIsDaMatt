@@ -54,3 +54,5 @@ else:
 
 print(f"Paciente {nombre}, tiene un imc de {imc} y su condicion es {mensaje}. ")
 
+
+
