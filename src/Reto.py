@@ -12,6 +12,7 @@ while True:
     print("======================")
 
     caso = (input("Introduzca una opción: "))
+    caso = caso.upper()
 
     match caso:
         case "A":
