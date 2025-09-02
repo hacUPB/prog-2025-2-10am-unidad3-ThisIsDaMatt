@@ -1,15 +1,15 @@
 control = True
 
 while True:
-    print("====================================")
-    print("           Menú Principal          ")
-    print("====================================")
+    print("======================================")
+    print("            Menú Principal           ")
+    print("======================================")
     print("A. Calcular Sustentación y Arrastre")
     print("B. Calcular Consumo de Combustible")
-    print("C. Opción C")
-    print("====================================")
+    print("C. Simular el Abordaje a una Aeronave")
+    print("======================================")
     print("Q. Salir")
-    print("====================================")
+    print("======================================")
 
     caso = (input("Introduzca una opción: "))
     caso = caso.upper()
