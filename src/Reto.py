@@ -44,8 +44,10 @@ while True:
             print("C. Boeing 737-800")
             print("D. Airbus A380-800")
             print("=======================")
+
             caso_b = (input("Seleccione una aeronave: "))
             caso_b = caso_b.upper()
+
             match caso_b:
                 case "A":
                     consumo = 30
@@ -113,11 +115,42 @@ while True:
                         print("Combustible excede la capacidad maxima. Intente una cantidad menor.")
                 case _: print("Opción de aeronave invalida.")
         case "C":
-            print("Ha seleccionado la opción C.")
+            print("===================================")
+            print("Ha entrado al Simulador de Abordaje")
+            print("=============================================================")
+            print("La aeronave es un A330-300 - Capacidad Maxima: 290 pasajeros.")
+            print("=============================================================")
+            pasajeros = int(input("Ingrese la cantidad de pasajeros del vuelo en multiplos de 10: "))
+
+            while pasajeros > 290:
+                print("Cantidad maxima excedida, ingrese un numero menor.")
+                pasajeros = int(input("Ingrese la cantidad de pasajeros del vuelo en multiplos de 10: "))
+
+            while pasajeros % 10 != 0:
+                print("Ingrese una cantidad en muliplos de 10.")
+                pasajeros = int(input("Ingrese la cantidad de pasajeros del vuelo en multiplos de 10: "))
+            
+            tamaño_grupo = pasajeros / 5
+            tamaño_grupo = int(tamaño_grupo)
+            print(f"Cada grupo es de {tamaño_grupo} pasajeros.")
+
+            pasajero_actual = 1
+            grupo = 1
+
+            while pasajero_actual <= pasajeros:
+                print(f"Grupo {grupo} abordando.")
+
+                for i in range(tamaño_grupo):
+                    if pasajero_actual <= pasajeros:
+                        print(f"Pasajero {pasajero_actual} ha abordado.")
+                        pasajero_actual += 1
+
+                print(f"Grupo {grupo} ha abordado.")
+                grupo += 1
+
+            print(f"Todos los {pasajeros} pasajeros han abordado la aeronave.")
         case "Q":
             print("Saliendo del programa...")
             break
         case _:
             print("Opción no valida.")
-
-
