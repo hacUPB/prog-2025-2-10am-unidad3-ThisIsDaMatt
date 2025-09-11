@@ -1,0 +1,5 @@
+# Problema 1 - Calculadora de Sustentación y Arrastre
+### Descripción del problema
+Este programa permite al usuario calcular la sustentación y el arrastre de una aeronave al ingresar datos necesarios para calcular esto, como Densidad del Aire, Velocidad del Avión, Superficie Alar, Coeficiente de Sustentación y Arrastre y peso de la aeronave. Se utilizan estas variables para calcular la sustentación y el arrastre con las formulas respectivas de estos dos donde se relacionan todas las variables, para finalmente mostrarle al usuario estos valores y si el avión es apto para volar, teniendo en cuenta si la sustentación es mayor al peso. Si la sustentación es menor al peso, el programa le dice al usuario que la aeronave no es apta para volar.
+
+# Problema 2 - Calculadora de Horas de Vuelo segun Combustible

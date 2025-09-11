@@ -7,8 +7,8 @@
 | Clara definición de las constantes que se utilizan en el problema |1 |Están definidas en el codigo pero faltan estos datos en las tablas. |
 | Ecuación que relaciona adecuadamente las variables del problema |2 |Cada problema tiene sus ecuaciones bien determinadas y estructuralmente bien hechas. |
 | No es solo cálculo directo |2 |Los calculos se llevan a cabo por coeficientes de sustentacion, combustible y por personas, tomando como ejemplos cada problema donde el resultado se calcula dinamicamente segun las opciones del usuario. |
-| Al menos un bucle (variable de control, condición de parada) |2 |Si. En los ultimos dos problemas hay un bucle y una variable de control para asegurar su funcionamiento y que pare cuando debe hacerlo. |
+| Al menos un bucle (variable de control, condición de parada) |1 |Si. En los ultimos dos problemas hay un bucle y una variable de control para asegurar su funcionamiento y que pare cuando debe hacerlo. |
 | Al menos una sentencia condicional significativa |2 |En todos hay una sentencia condicional significativa como if, el if y else. |
 | Menú repetitivo hasta "Salir" |2 |Está definida la repetición del menu gracias a una variable de control que es True y un break con la opción de Salir. |
 | Sin listas, diccionarios, tuplas ni sets |2 |No usamos ningunos de estos recursos, solo se han usado los enseñados por el profesor en clase. |
-| Declaración de uso de IA (si aplica) |0 |No usamos IA. |
+| Declaración de uso de IA (si aplica) |2 |No usamos IA. |
