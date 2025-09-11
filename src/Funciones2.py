@@ -29,17 +29,22 @@ def postres():
 
 
 # Funcion principal
-eleccion = menu()
-print(eleccion)
+def main():
+    eleccion = menu()
+    print(eleccion)
 
-match eleccion:
-    case 1:
-        entradas()
-    case 2:
-        fuertes()
-    case 3:
-        bebidas()
-    case 4:
-        postres()
-    case _:
-        print("Opcion no valida.")
+    match eleccion:
+        case 1:
+            entradas()
+        case 2:
+            fuertes()
+        case 3:
+            bebidas()
+        case 4:
+            postres()
+        case _:
+            print("Opcion no valida.")
+
+# Aqui se llama a la funcion principal
+if __name__ == "__main__":
+    main()
