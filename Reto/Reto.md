@@ -1,5 +1,11 @@
-# Problema 1 - Calculadora de Sustentación y Arrastre
+## Problema 1 - Calculadora de Sustentación y Arrastre
 ### Descripción del problema
 Este programa permite al usuario calcular la sustentación y el arrastre de una aeronave al ingresar datos necesarios para calcular esto, como Densidad del Aire, Velocidad del Avión, Superficie Alar, Coeficiente de Sustentación y Arrastre y peso de la aeronave. Se utilizan estas variables para calcular la sustentación y el arrastre con las formulas respectivas de estos dos donde se relacionan todas las variables, para finalmente mostrarle al usuario estos valores y si el avión es apto para volar, teniendo en cuenta si la sustentación es mayor al peso. Si la sustentación es menor al peso, el programa le dice al usuario que la aeronave no es apta para volar.
 
-# Problema 2 - Calculadora de Horas de Vuelo segun Combustible
+## Problema 2 - Calculadora de Horas de Vuelo segun Combustible
+### Descripción del problema
+Se le presenta un menú al usuario con cuatro opciones de aeronaves para escoger, que varian desde un Cessna 172 Skyhawk hasta un Airbus A380-800, las cuales funcionan con los datos reales de consumo de combustible y de capacidad de combustible. Se le pide al usuario ingresar una cantidad de combustible en KG; si la cantidad es mayor a la capacidad de la aeronave, se repite la pregunta hasta que se ingrese un valor permitido. Al ingresar el valor, el programa muestra cuantas horas de vuelo han pasado y cuanto combustible resta hasta que la aeronave agote el combustible, mostrando finalmente, en modo de resumen, cuantas horas voló la aeronave.
+
+## Problema 3 - Simulador de Abordaje de un Airbus A330
+### Descripción del problema
+Este programa permite al usuario simular el abordaje de una aeronave, mas concretamente un Airbus A330-300, con capacidad para 290 pasajeros, numero que se utiliza como limite en este codigo. Se le pide al usuario ingresar una cantidad de pasajeros estrictamente menor o igual a 290, y en multiplos de 10; el programa detecta si uno o ambos requisitos no se cumplen, y vuelve a formular la pregunta hasta que se ingresen valores permitidos. Se necesitan numeros multiplos de 10 para poder dividir el numero de personas en 5 grupos de abordaje, pues es imposible que una persona aparezca como numero decimal. Se le muestra al usuario que grupo empieza abordaje, cuantos abordan y cuando termina el abordaje de cada grupo, pasando por todos los pasajeros. Finalmente, como modo de resumen se muestra cuantos pasajeros abordaron el vuelo correctamente.
