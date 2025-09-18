@@ -13,6 +13,11 @@ Variables de Entrada:
 Variables de Salida:
 - L
 - D
+
+Ecuaciones:
+- L = 0.5 * rho * ( V^2 ) * S * CL
+- D = 0.5 * rho * ( V^2 ) * S * CD
+
 ### Pseudocodigo
 ```
 Inicio
@@ -168,3 +173,4 @@ Mientras pasajero_actual <= pasajeros
 Fin Mientras
 Mostrar pasajeros
 Fin
+```
